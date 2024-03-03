@@ -464,11 +464,7 @@ class User extends BaseController
         // ambil data dari form
         $id_album = $this->request->getVar('delfrom');
 
-        // ambil data dari tabel albumdata
-        $take = $this->AlbumDataModel->where(['id_album' => $id_album])->findAll();
-
-        // hapus data dari tabel albumdata
-        $this->AlbumDataModel->where(['id_album' => $id_album])->delete();
+        $this->AlbumDataModel->where(['id_post' => $id, 'id_album' => $id_album])->delete();
 
         session()->setFlashdata('pesan', 'Foto Berhasil Dihapus Dari Album');
         return redirect()->to('/post/' . $id);

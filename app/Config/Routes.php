@@ -12,6 +12,7 @@ $routes->get('/login', 'Home::login');
 $routes->get('/daftar', 'Home::daftar');
 $routes->post('/auth/valid_daftar', 'Auth::valid_daftar');
 $routes->post('/auth/valid_login', 'Auth::valid_login');
+$routes->get('/auth/activate/(:any)', 'Auth::activate/$1');
 $routes->get('/lupapw', 'Home::lupaPw');
 $routes->post('/auth/valid_lupapw', 'Auth::valid_lupaPw');
 $routes->get('/auth/reset/(:any)', 'Auth::valid_resetPw/$1/$2');
