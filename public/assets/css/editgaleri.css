@@ -1,0 +1,118 @@
+.form-control {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.form-control:focus {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #07161B inset !important;
+    /* text color */
+    -webkit-text-fill-color: #3D737F !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.form-select:focus {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+.form-select:-webkit-autofill,
+.form-select:-webkit-autofill:hover,
+.form-select:-webkit-autofill:focus,
+.form-select:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #07161B inset !important;
+    /* text color */
+    -webkit-text-fill-color: #3D737F !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-select:focus option {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
+
+.button-file {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: transparent;
+    border: 2px solid #3D737F;
+    border-radius: 25px;
+    color: #3D737F;
+}
+
+.button-file:hover {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.submit-create {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.submit-create:hover {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: black;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}

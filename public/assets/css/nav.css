@@ -1,0 +1,95 @@
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background: #07161B;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.navbar-brand:hover {
+    color: whitesmoke;
+}
+
+.bi-list {
+    width: 30px;
+    height: 30px;   
+    background: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+}
+
+.navbar-nav {
+    gap: 1vh;
+}
+
+.batten {
+    width: 75px;
+    height: 45px;
+    border: none;
+    color: black;
+    background: #3D737F;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.batten:hover {
+    background: black;
+    border: 2px solid whitesmoke;
+    color: white;
+}
+
+.active {
+    background: black;
+    border: 2px solid whitesmoke;
+    color: white;
+}
+
+.btn {
+    margin-right: 1vh;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+.yesyes {
+    margin-left: 1vh;
+    margin-right: 3vh;
+}
+
+.navbar {
+    /* shadow bottom */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.form-label {
+    margin-left: 20px;
+}
+
+/* Responsive Area */
+
+@media screen and (max-width: 479px) {
+    .brand {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+}

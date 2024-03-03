@@ -1,0 +1,60 @@
+.btn-profile {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.inihome1 {
+    display: none;
+}
+
+.inicreate1 {
+    display: none;
+}
+
+@media screen and (max-width: 610px) {
+    .brand {
+        display: none;
+    }
+
+    .col-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .brand {
+        display: none;
+    }
+
+    .btn-outline-success {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .brand {
+        display: none;
+    }
+
+    .btn-outline-success {
+        display: none;
+    }
+
+    .inihome {
+        display: none;
+    }
+
+    .inihome1 {
+        display: block;
+    }
+
+    .inicreate {
+        display: none;
+    }
+
+    .inicreate1 {
+        display: block;
+    }
+}

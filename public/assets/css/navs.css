@@ -1,0 +1,1293 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  /* background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  background: #07161bd8;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bungkus {
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  color: whitesmoke;
+}
+
+.navbar-brand:hover {
+  color: whitesmoke;
+}
+
+.container-fluid {
+  /* padding left and right */
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.bi-list {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+}
+
+.navbar-nav {
+  gap: 3px;
+}
+
+.batten {
+  width: 75px;
+  height: 45px;
+  border: none;
+  color: black;
+  background: #3d737f;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.battenplus {
+  width: 37.5px;
+  height: 45px;
+  border: none;
+  color: black;
+  background: transparent;
+  border-radius: 25px;
+}
+
+.battenhome {
+  width: 37.5px;
+  height: 45px;
+  border: none;
+  color: black;
+  background: transparent;
+  border-radius: 25px;
+}
+
+.batten:hover {
+  background: black;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.btn {
+  margin-right: 6.67px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+}
+
+.yesyes {
+  margin-left: 6.67px;
+  margin-right: 20px;
+}
+
+.navbar {
+  /* shadow bottom */
+  background: #07161b;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.user {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #f8f8f8;
+  border: none;
+  outline: none;
+}
+
+.battenprofile {
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+}
+
+/* Search bar */
+
+.searchbar {
+  padding: 0 10px;
+  width: 1120px;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  background: #3d737f;
+  color: black;
+}
+
+.searchbar:focus {
+  outline: none;
+  background: black;
+  border: 2px solid whitesmoke;
+  box-shadow: none;
+  color: whitesmoke;
+}
+
+.searchbar::placeholder {
+  color: black;
+}
+
+/*  */
+
+.iniplus {
+  display: none;
+}
+
+.inihom {
+  display: none;
+}
+
+.emes {
+  margin-left: auto;
+}
+
+.active {
+  width: 75px;
+  height: 45px;
+  border: none;
+  color: whitesmoke;
+  background: black;
+  border-radius: 25px;
+  border: 2px solid whitesmoke;
+  font-size: 14px;
+}
+
+.active-pp {
+  border: 2px solid whitesmoke;
+}
+
+/*  */
+
+/* Responsive Area */
+
+@media screen and (max-width: 1500px) {
+  .searchbar {
+    width: 1100px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .searchbar {
+    width: 1080px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .searchbar {
+    width: 1060px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .searchbar {
+    width: 1040px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .searchbar {
+    width: 1020px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+
+/* lanjutkan */
+
+@media screen and (max-width: 1400px) {
+  .searchbar {
+    width: 1000px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .searchbar {
+    width: 980px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .searchbar {
+    width: 960px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .searchbar {
+    width: 940px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .searchbar {
+    width: 920px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+/* lanjutkan */
+
+@media screen and (max-width: 1300px) {
+  .searchbar {
+    width: 900px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .searchbar {
+    width: 880px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .searchbar {
+    width: 860px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .searchbar {
+    width: 840px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+/* lanjutkan */
+
+@media screen and (max-width: 1220px) {
+  .searchbar {
+    width: 820px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .searchbar {
+    width: 800px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .searchbar {
+    width: 780px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .searchbar {
+    width: 760px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .searchbar {
+    width: 740px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+/* lanjutkan */
+
+@media screen and (max-width: 1120px) {
+  .searchbar {
+    width: 720px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .searchbar {
+    width: 700px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .searchbar {
+    width: 680px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .searchbar {
+    width: 660px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+/* lanjutkan */
+
+@media screen and (max-width: 1040px) {
+  .searchbar {
+    width: 640px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .searchbar {
+    width: 620px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .searchbar {
+    width: 600px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .searchbar {
+    width: 600px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 981px) {
+  .searchbar {
+    width: 580px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 961px) {
+  .searchbar {
+    width: 560px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 941px) {
+  .searchbar {
+    width: 540px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 921px) {
+  .searchbar {
+    width: 520px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 901px) {
+  .searchbar {
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 881px) {
+  .searchbar {
+    width: 480px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+}
+@media screen and (max-width: 861px) {
+  .searchbar {
+    width: 543px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 841px) {
+  .searchbar {
+    width: 523px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 821px) {
+  .searchbar {
+    width: 503px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 801px) {
+  .searchbar {
+    width: 561px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 781px) {
+  .searchbar {
+    width: 541px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 761px) {
+  .searchbar {
+    width: 521px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 741px) {
+  .searchbar {
+    width: 501px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 721px) {
+  .searchbar {
+    width: 481px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 701px) {
+  .searchbar {
+    width: 461px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 681px) {
+  .searchbar {
+    width: 441px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 661px) {
+  .searchbar {
+    width: 421px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 641px) {
+  .searchbar {
+    width: 401px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 621px) {
+  .searchbar {
+    width: 381px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 601px) {
+  .searchbar {
+    width: 361px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 581px) {
+  .searchbar {
+    width: 341px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 561px) {
+  .searchbar {
+    width: 321px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 541px) {
+  .searchbar {
+    width: 301px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 521px) {
+  .searchbar {
+    width: 281px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 501px) {
+  .searchbar {
+    width: 261px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 481px) {
+  .searchbar {
+    width: 241px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 461px) {
+  .searchbar {
+    width: 221px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 441px) {
+  .searchbar {
+    width: 201px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 421px) {
+  .searchbar {
+    width: 181px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 401px) {
+  .searchbar {
+    width: 161px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 381px) {
+  .searchbar {
+    width: 141px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 361px) {
+  .searchbar {
+    width: 121px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 341px) {
+  .searchbar {
+    width: 101px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 321px) {
+  .searchbar {
+    width: 81px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 301px) {
+  .searchbar {
+    width: 61px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}
+@media screen and (max-width: 281px) {
+  .searchbar {
+    width: 51px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3d737f;
+    color: black;
+  }
+  .brand {
+    display: none;
+  }
+  .inihome {
+    display: none;
+  }
+  .inicreate {
+    display: none;
+  }
+  .iniplus {
+    display: block;
+  }
+  .inihom {
+    display: block;
+  }
+}

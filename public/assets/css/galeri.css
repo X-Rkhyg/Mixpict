@@ -1,0 +1,360 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.galeri-container {
+    backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: #07161bde;
+    border-radius: 12px;
+    justify-content: center;
+    max-height: auto;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+}
+
+.kategori-container {
+    background-color: transparent;
+    border-radius: 12px;
+    justify-content: center;
+    max-height: auto;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+}
+
+.col-30 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.col-70 {
+    padding: 0px 40px 20px 40px;
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.col-icon {
+    flex: 0 0 15%;
+    max-width: 15%;
+}
+
+.col-pp {
+    flex: 0 0 11%;
+    max-width: 11%;
+}
+
+.col-uploader {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.col-komentar {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+#image-galeri {
+    display: block;
+    max-width: 650px;
+}
+
+#image-galeri img {
+    border: whitesmoke 2px solid;
+    border-radius: 15px;
+    width: 100%;
+    max-height: auto;
+    display: block;
+}
+
+.met-5 {
+    margin-top: 50px;
+}
+
+.meb-5 {
+    margin-bottom: 50px;
+}
+
+.user-uploader {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.form-control:focus {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #3D737F;
+}
+
+.scrolling {
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 500px;
+    scrollbar-width: none;
+}
+
+.garis {
+    border: 2px solid #3D737F;
+    margin: 20px 0px 20px 0px;
+}
+
+.webe {
+    word-break: break-all;
+}
+
+.creator {
+    color: skyblue;
+}
+
+.uhah {
+    border: none;
+    background: transparent;
+}
+
+.uhaho {
+    border: none;
+    background: transparent;
+
+}
+
+@media screen and (max-width: 1400px){
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 23px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .col-uploader {
+        margin-left: 10px;
+    }
+
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 13px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .col-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-70 {
+        padding: 0px 20px 20px 20px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-uploader {
+        margin-left: 0px;
+    }
+
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 18.5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-pp {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    
+    .col-uploader {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 8.5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-70 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .met-5 {
+        margin-top: 10px;
+    }
+
+    .meb-5 {
+        margin-bottom: 0px;
+    }
+
+    .col-icon {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }   
+
+    .galeri-container {
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: #07161bde;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        justify-content: center;
+        max-height: auto;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .kategori-container {
+        background-color: transparent;
+        border-radius: 12px;
+        justify-content: center;
+        max-height: auto;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 23px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .user-uploader {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 2px solid whitesmoke;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .col-pp {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    
+    .col-uploader {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 5px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 0px;
+    }
+    
+    p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    .uhah {
+        border: none;
+        background: transparent;
+        margin-left: 0px;
+    }
+    
+    p {
+        font-size: 8px;
+    }
+}

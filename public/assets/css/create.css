@@ -1,0 +1,228 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.create-container {
+    backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: #07161bde;
+    border-radius: 12px;
+    justify-content: center;
+    max-height: auto;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+}
+
+.col-30 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.col-70 {
+    padding: 0px 40px 20px 40px;
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.form-control:focus {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #07161B inset !important;
+    /* text color */
+    -webkit-text-fill-color: #3D737F !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.form-select:focus {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+.form-select:-webkit-autofill,
+.form-select:-webkit-autofill:hover,
+.form-select:-webkit-autofill:focus,
+.form-select:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #07161B inset !important;
+    /* text color */
+    -webkit-text-fill-color: #3D737F !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-select:focus option {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
+
+.button-file {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: transparent;
+    border: 2px solid #3D737F;
+    border-radius: 25px;
+    color: #3D737F;
+}
+
+.button-file:hover {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.submit-create {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #3D737F;
+    color : #3D737F;
+}
+
+.submit-create:hover {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: black;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+#img-preview {
+    display: none;
+    max-width: 650px;
+}
+
+#img-preview img {
+    border: whitesmoke 2px solid;
+    border-radius: 15px;
+    width: 100%;
+    max-height: auto;
+    display: block;
+}
+
+#image-preview {
+    display: none;
+    max-width: 650px;
+}
+
+#image-preview img {
+    border: whitesmoke 2px solid;
+    border-radius: 15px;
+    width: 200px;
+    max-height: auto;
+    display: block;
+}
+
+.met-5 {
+    margin-top: 50px;
+}
+
+.meb-5 {
+    margin-bottom: 50px;
+}
+
+.form-control::placeholder {
+    color: #3D737F;
+}
+
+@media screen and (max-width: 992px) {
+    .col-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-70 {
+        padding: 0px 20px 20px 20px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-70 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .met-5 {
+        margin-top: 10px;
+    }
+
+    .meb-5 {
+        margin-bottom: 0px;
+    }
+
+    .create-container {
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: #07161bde;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        justify-content: center;
+        max-height: auto;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+    }
+}
