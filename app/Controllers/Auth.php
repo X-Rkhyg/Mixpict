@@ -179,7 +179,7 @@ class Auth extends BaseController
         if ($user && $cekemail) {
 
             $this->session->set('email', $data['email']);
-            $this ->session->set('token', $data['token']);
+            $this->session->set('token', $data['token']);
 
             $data = [
                 'title' => 'Mixpict - Reset Password'
