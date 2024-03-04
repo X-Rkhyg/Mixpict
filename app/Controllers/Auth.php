@@ -39,7 +39,7 @@ class Auth extends BaseController
             return redirect()->to('/daftar')->withInput();
         } else {
 
-            $token = base64_encode(random_bytes(32));
+            $token = substr(str_shuffle("0123456789"), 0, 10);
 
             $this->UserModel->save([
                 'nama' => $data['nama'],
@@ -109,22 +109,18 @@ class Auth extends BaseController
 
     public function activate($token)
     {
-        if ($token) {
-            $user = $this->UserModel->where(['actv' => $token])->first();
-            if ($user) {
-                $this->UserModel->save([
-                    'id_user' => $user['id_user'],
-                    'actv' => 'true'
-                ]);
+        $user = $this->UserModel->where(['actv' => $token])->first();
 
-                session()->setFlashdata('pesan', 'Akun berhasil diaktivasi');
-                return redirect()->to('/login');
-            } else {
-                session()->setFlashdata('pesan', 'Token tidak ditemukan');
-                return redirect()->to('/login');
-            }
+        if ($user) {
+            $this->UserModel->save([
+                'id_user' => $user['id_user'],
+                'actv' => 'true'
+            ]);
+
+            $this->session->setFlashdata('success', 'Akun berhasil diaktivasi');
+            return redirect()->to('/login');
         } else {
-            session()->setFlashdata('pesan', 'Token tidak ditemukan');
+            $this->session->setFlashdata('actv', 'Token tidak ditemukan');
             return redirect()->to('/login');
         }
     }

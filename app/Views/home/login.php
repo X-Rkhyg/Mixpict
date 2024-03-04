@@ -15,7 +15,8 @@
 $session = \Config\Services::session();
 $validation = \Config\Services::validation();
 $errors = $session->getFlashdata('errors');
-
+$success = $session->getFlashdata('success');
+$pesan = $session->getFlashdata('pesan');
 $actv = $session->getFlashdata('actv');
 $password = $session->getFlashdata('password');
 $username = $session->getFlashdata('username');
@@ -23,7 +24,7 @@ $reset = $session->getFlashdata('reset');
 $notFound = $session->getFlashdata('notFound');
 ?>
 <!-- login form -->
-<div class="container emte-5">
+<div class="container mt-5">
     <div class="row">
         <div class="col-12">
             <h1 class="text-center mt-5 mb-2 text-login text-white">LOGIN</h1>
@@ -57,6 +58,16 @@ $notFound = $session->getFlashdata('notFound');
             <?php if ($notFound) { ?>
                 <ul style="color: red;" class="mb-2">
                     <li><?php echo $notFound ?></li>
+                </ul>
+            <?php } ?>
+            <?php if ($success) { ?>
+                <ul style="color: green;" class="mb-2">
+                    <li><?php echo $success ?></li>
+                </ul>
+            <?php } ?>
+            <?php if ($pesan) { ?>
+                <ul style="color: green;" class="mb-2">
+                    <li><?php echo $pesan ?></li>
                 </ul>
             <?php } ?>
         </div>
